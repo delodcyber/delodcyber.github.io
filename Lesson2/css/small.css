@@ -1,0 +1,35 @@
+body {
+font-size: 20px;
+background-color: cyan;
+}
+h1, h2 {
+    font-family: 'Merienda', cursive, sans-serif;
+}
+h3, p {
+    font-family: 'Overlock', cursive, sans-serif; 
+}
+header {
+    text-align: center;
+}
+main img {
+    max-width: 300px;
+    height: auto;
+}
+.columns {
+    display: block;
+    background-color: rgb(206, 177, 177);
+    text-align: center;
+    align-items: center;
+    margin:10px 10px 10px 10px ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #modified {
+    color: #73a556;
+  }
+  footer {
+    text-align: center;
+    font-family: 'Overlock', cursive, sans-serif; 
+}
