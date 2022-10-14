@@ -19,7 +19,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: large;
+    font-size: 40px;
 }
 nav ul li a {
     display: block;
