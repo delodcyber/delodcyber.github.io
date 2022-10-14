@@ -1,0 +1,82 @@
+body {
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header, footer {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 100%;
+	align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 162, 177);
+}
+nav {
+    background-color: rgb(126, 162, 177);
+
+}
+nav ul {
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: rgb(53, 32, 53);
+}
+nav a:hover {
+	background-color: rgb(53, 32, 53);
+	color: rgb(126, 162, 177) ;
+}
+.active {
+	color: white;
+}
+main {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 100%;
+}
+#logo {
+    width: 20vh;
+	height: auto;
+}
+#colors-img {
+    max-width: 40vh;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+main ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: #0773ed;
+    color: #bff0d4;
+}
+main a:hover {
+	background-color: #eeaf1b;
+	color:#0773ed ;
+}
+#fonts h1, h2, h3, h4, h5 {
+    font-family: 'Fanwood Text', serif;
+}
+#fonts p {
+    font-family: 'Crimson Pro', serif;
+}
+#fonts {
+    text-align: center;
+}
