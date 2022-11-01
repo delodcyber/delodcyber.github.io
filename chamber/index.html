@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 / Commerce">
+    <title>John Adeloye WDD 230 / Chamber</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Yeon+Sung&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading-l">
+            <div class="heading">
+                <h1>John Adeloye</h1>
+                <h2 id="motto">Your No. 1 Home of Commercial Information</h2>
+            </div>
+            <img src="./images/logo.png" alt="logo" id="logo">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#">&#9776; Menu</a></li>
+                <li><a class="active" href="/Commerce/index.html">Home</a></li>
+                <li><a href="/Commerce/region.html">Region</a></li>
+                <li><a href="/Commerce/marketplace.html">Marketplace</a></li>
+                <li><a href="/Commerce/directory.html">Directory</a></li>
+                <li><a href="/Commerce/contact Us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slides0">
+            <div class="slides" style="max-width:500px">
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="ws">
+                <h2>Weather now in <br>Ivano-Frankivsk</h2>
+                <p>Condition: <span id="cur">N/A</span></p>
+                <p>Temperature: <span id="t">N/A</span></p>
+                <p>Humidity: <span id="hu">N/A</span></p>
+                <p>Wind Speed: <span id="w">N/A</span></p>
+            </div>
+            <div>
+                <h2>Three Day Forecast</h2>
+                <table>
+                    <tr class="tbl">
+                        <td id="dayofweek1"></td>
+                        <td id="dayofweek2"></td>
+                        <td id="dayofweek3"></td>
+                        <td class="hidden" id="dayofweek4"></td>
+                        <td class="hidden" id="dayofweek5"></td>
+                    </tr>
+                    <tr class="tbl">
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon1"></td>
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon2"></td>
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon3"></td>
+                        <td class="hidden"><img src="./images/Placeholder.png" alt="placeholder" id="icon4"></td>
+                        <td class="hidden"><img src="./images/Placeholder.png" alt="placeholder" id="icon5"></td>
+
+                    </tr>
+                    <tr class="tbl">
+                        <td id="forecast1"></td>
+                        <td id="forecast2"></td>
+                        <td id="forecast3"></td>
+                        <td class="hidden" id="forecast4"></td>
+                        <td class="hidden" id="forecast5"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h2 id="info">"Forbes Ukraine" recognized Ivano-Frankivsk as the best city for business</h2>
+            <div id="type">
+                <h3>Local Company Advertisement</h3>
+                <div class="advertisement" style="display:flex;">
+                    <div>
+                        <span>Panorama Club</span>
+                        <img src="./images/logo1.png" alt="panorama_logo"/>
+                        <span class="tel">tel. (0342) 71-12-04</span>
+                        <span>Join our Bowling and Karaoke this weekend!</span>
+                    </div>
+                    <div>
+                        <span>Restaurant `Desyatka`</span>
+                        <img src="./images/logo2.png" alt="desyatka_logo"/>
+                        <span class="tel">tel. (050) 373-82-02</span>
+                        <span>Enjoy a free meal for kids!</span>
+                    </div>
+                    <div>
+                        <span>Roller Сlub</span>
+                        <img src="./images/logo3.png" alt="roller_club_logo"/>
+                        <span class="tel">tel. (093)-130-36-36</span>
+                        <span>Bring a freind and get an hour free!</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="info2">
+                <h3>Why you need to join your local Chamber of Commerce</h3>
+                <p>Business owners are always looking for new opportunities
+                     to network and meet other small business owners and expand 
+                     their business network. One great way to do this is to become a member 
+                     of your local Chamber of Commerce! Many small businesses increase their 
+                    business exposure and grow revenues through involvement in the Chamber. </p>
+                    <h4>Here are some great reasons to join your local Chamber of Commerce:</h4>
+                <ul>
+                    <li>Make business contacts</li>
+                    <li>Receive chamber newsletters</li>
+                    <li>Acquire customer referrals</li>
+                    <li>Bring credibility to your business</li>
+                    <li>Increase your visibility in the community</li>
+                    <li>Networking opportunities</li>
+                    <li>Gain a voice in government</li>
+                </ul>
+                <button class="button"
+                onclick="document.location='/Commerce/join.html'">Join Now!</button>
+            </div>
+        </div>
+        <h2 id="locations">Where we are located</h2>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1x0JwC2vhw-WwQeMIb84Cqx_CR7xUfwiX" width="640" height="480"></iframe>
+            </div>
+    </main>
+    <footer>
+        <div class="content_s">
+            <h2>Chamber of Commerce</h2>
+            <h3>Ivano-Frankivsk</h3>
+            <p>Rynok Square, Ivano-Frankivsk, Ivano-Frankivsk Oblast, Ukraine, 76000</p>
+            <p>+38-099-122-21-31</p>
+            <p>chamberif.net</p>
+            <a href="https://www.facebook.com/"> <img src="./images/facebook.png" alt="logo"></a>
+            <a href="https://twitter.com/"> <img src="./images/twitter.png" alt="logo"></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="logo"></a>
+        </div>
+        <div class="footer">
+            &#169; Chamber of Commerce | <a href="./attributions.html">Attributions</a> | Rybitskyi Orest
+            <div>Last Modified &nbsp; <span id="modified"></span></div>
+            <br>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="js/carusel.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+
+</html>
