@@ -153,11 +153,11 @@ nav {
 
 .navigation a:hover {
   color: #70c1ff;
-  background-color: #f8f862;
+  background-color: #1c319a;
 }
 
 .navigation .active {
-  background-color: #f8f862;
+  background-color: #2db4c6;
   border: dotted;
 }
 
