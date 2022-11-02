@@ -97,7 +97,7 @@ h4 {
 
 #motto {
   margin:50vw;
-  justify-content:end;
+  justify-content:last baseline;
 }
 
 #locations {
