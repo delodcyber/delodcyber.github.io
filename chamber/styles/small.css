@@ -112,6 +112,12 @@ h4 {
   justify-content: center;
   /*text-shadow: white 0px 0px 10px; */
 }
+
+img.heading-1:hover {
+  float:left;
+  justify-content: center;
+
+}
 .content {
   padding: 1em;
   margin-bottom: 2em;
