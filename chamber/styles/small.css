@@ -108,6 +108,7 @@ h4 {
 .heading-1 {
   flex-wrap: 1;
   flex-basis: 50%;
+  color: white;
   /*text-shadow: white 0px 0px 10px; */
 }
 .content {
