@@ -106,7 +106,7 @@ h4 {
 .heading-l {
   display: flex;
   align-items: left;
-  justify-content: center;
+  justify-content: left;
   background-image: url("/chamber/images/cocbanner.jpg");
   background-size: cover;
 }
