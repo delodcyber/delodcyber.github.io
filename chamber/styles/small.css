@@ -92,7 +92,6 @@ h4 {
 #logo {
   width: 18vw;
   border-radius: 100%;
-  /* margin-left: 7vm */
 }
 
 #locations {
@@ -103,7 +102,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: left;
-  background-image: url("/chamber/images/cocbanner.jpg");
+  background-image: url("https://drive.google.com/file/d/1rd1I4ujr25FBCuo7vq0bHBqBhjGvXlVb/view?usp=sharing");
   background-size: cover;
 }
 
