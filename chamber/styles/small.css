@@ -107,8 +107,7 @@ h4 {
 }
 
 .heading {
-  align-content: right;
-  text-align: right;
+  justify-content: right;
   color: #FFFFFF;
   /*text-shadow: white 0px 0px 10px; */
 }
