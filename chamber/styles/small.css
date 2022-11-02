@@ -99,7 +99,7 @@ h4 {
 }
 
 .heading-l {
-  display: inline-flex;
+  display: inline;
   align-items: center;
   background-image: url("https://delodcyber.github.io/chamber/images/cocbanner.jpg");
   background-size: cover;
