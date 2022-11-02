@@ -109,7 +109,7 @@ h4 {
   flex-wrap: 1;
   flex-basis: 50%;
   color: rgb(2, 252, 52);
-  justify-items: center;
+  justify-content: center;
   /*text-shadow: white 0px 0px 10px; */
 }
 .content {
