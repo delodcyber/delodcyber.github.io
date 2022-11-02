@@ -98,16 +98,16 @@ h4 {
   text-align: center;
 }
 
-.heading-l {
+.heading {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   background-image: url("https://delodcyber.github.io/chamber/images/cocbanner.jpg");
   background-size: cover;
 }
 
-.heading {
-  justify-content: right;
-  color: #FFFFFF;
+.heading-1 {
+  flex-wrap: 1;
+  flex-basis: 50%;
   /*text-shadow: white 0px 0px 10px; */
 }
 .content {
