@@ -107,7 +107,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("images/logo.png");
+  background-image: url("/chamber/images/cocbanner.jpg");
   background-size: cover;
 }
 
