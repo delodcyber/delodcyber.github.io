@@ -101,7 +101,6 @@ h4 {
 .heading-l {
   display: flex;
   align-items: center;
-  justify-content: left;
   background-image: url("https://delodcyber.github.io/chamber/images/cocbanner.jpg");
   background-size: cover;
 }
