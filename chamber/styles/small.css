@@ -15,29 +15,6 @@ h4 {
   font-family: "Yeon Sung", serif;
 }
 
-.grid-view {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.list-view {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 500px;
-  font-size: 1.25rem;
-}
-
-.list-view > div,
-.grid-view > div
- {
-  display:flex;
-  padding:12px;
-  border:1px solid red;
-  flex-direction: row;
-  max-width:520px;
-}
-
 .credits > div {
   display:flex;
   flex-direction:column;
@@ -126,6 +103,14 @@ nav {
 
 .navigation .active {
   background-color: #2db4c6;
+}
+
+.responsive li {
+  display: block;
+}
+
+#placeholder {
+  width: 100%;
 }
 
 .ws {
