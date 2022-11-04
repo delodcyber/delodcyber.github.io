@@ -15,36 +15,6 @@ h4 {
   font-family: "Yeon Sung", serif;
 }
 
-.advertisement {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 18px;
-}
-
-.advertisement > div {
-  padding: 18px;
-  max-width: 160px;
-  min-width: 18vw;
-  display:flex;
-  flex-direction: column;
-  border: 2px dotted rgb(42, 105, 145);
-  font-size:1.1rem;
-  justify-content: space-between;
-  height: 300px;
-}
-.advertisement > div > span,
-.advertisement > div > img
- {
-  margin-bottom: 12px;
-  max-width: 300px;
-}
-
-.advertisement .tel {
-  font-size: 1rem;
-}
-
 .grid-view {
   display: grid;
   grid-template-columns: 1fr;
@@ -156,14 +126,6 @@ nav {
 
 .navigation .active {
   background-color: #2db4c6;
-}
-
-.responsive li {
-  display: block;
-}
-
-#placeholder {
-  width: 100%;
 }
 
 .ws {
