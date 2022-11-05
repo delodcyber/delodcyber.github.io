@@ -1,0 +1,139 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0.5em;
+}
+h1, h2, h3, h4 {
+    font-family: 'Fanwood Text', serif;
+}
+.content, p { 
+    font-family: 'Crimson Pro', serif;
+}
+.heading-l {
+    background-color:  #bff0d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 1em;
+    margin-bottom: 2em;
+    border: dashed;
+}
+nav {
+    margin: 0 auto;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    color: #bff0d4;
+    background-color: #0773ed;
+    font-weight: 500;
+}
+.navigation a:hover {
+color: #bff0d4;
+background-color: #eeaf1b ;
+}
+.responsive li {
+    display: block;
+}
+#placeholder {
+    width: 100%;
+}
+.ws {
+    display: flexbox;
+    background-color: #70c2f8;
+    opacity: 0.7;
+    padding: 10px;
+    text-align: center;
+}
+.ws p {
+margin: auto;
+}
+.article img {
+    max-width: 100%;
+}
+.article h2 {
+    text-align: center;
+    background-color: #bff0d4;
+}
+#img_s {
+ max-width: 100%;
+ display: none;
+}
+.content_s {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 3px;
+}
+.content_s a img {
+    width: 30px;
+}
+footer {
+    background-color: #bff0d4;
+}
+.footer {
+text-align: center;
+position: static;
+
+}
+.forecast {
+    display: none;
+}
+.pop {
+    text-align: center;
+    background-color: #eeaf1b;
+}
+div.show {
+    display: block;
+}
+
+div.hide {
+    display: none;
+}
+#pics {
+    display: grid;
+    justify-content: center;
+    max-width:100%;
+     border-style: dotted; 
+     overflow:auto;
+    padding: 1rem;
+}
+.picture img[data-src] {
+    filter: blur(0.3em);
+    max-width:100%;
+  }
+.picture img {
+    filter: blur(0em);
+    transition: filter 1s;
+    max-width:100%;
+  }
+  .picture {
+    transition: box-shadow .3s;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+    text-align: center;
+    
+  }
+  .picture:hover {
+    box-shadow: 0 0 10px #000000; 
+  }
+  .pop {
+      display: none;
+  }
+}

@@ -1,0 +1,52 @@
+@media only screen and (min-width: 65em) {
+    body {
+        font-size: 1.7em;
+    }
+    .ws {
+        text-align: center;
+        font-size: 1rem;
+        width: 20%;
+        max-height: 15%;
+        position: relative;
+        box-shadow: 5px 5px 4px #302a2a;
+        background: rgba(29, 172, 238, 0.7);
+        padding: 1rem;
+        margin-top: -400px;
+        margin-bottom: 250px;
+        margin-left: 40px;
+    }
+    .tbl td {
+        text-align: center;
+        padding: ;
+        margin-bottom: 2em;
+        border: ridge;
+    }
+    table {
+        margin-left:auto; 
+        margin-right:auto;
+        margin-bottom: 10px;
+        
+    }
+    .forecast h2 {
+        text-align: center;
+    }
+    .forecast {
+        display: block;
+    }
+    #img_s {
+        display: block;
+        max-width: 350px;
+        float: left;
+        padding: 20px;
+    }
+    #pics {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px ;
+    }
+    
+}
+
+
+
+
+

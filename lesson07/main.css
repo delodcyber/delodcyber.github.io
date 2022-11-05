@@ -1,0 +1,16 @@
+#pics {
+    display: grid;
+       grid-gap: 50px ;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+picture img[data-src] {
+    filter: blur(0.3em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
