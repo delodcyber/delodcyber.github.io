@@ -21,8 +21,4 @@ button.addEventListener('click', () => {
         input.focus; 
         console.log()   
         }
-
-    if(document.getElementById(output) > 2){
-        document.getElementById(button).disabled = true;
-        }
     })
