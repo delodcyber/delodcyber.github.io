@@ -20,5 +20,9 @@ button.addEventListener('click', () => {
         input.value = '';
         input.focus; 
         console.log()   
-    }
-})
+        }
+
+    if(document.getElementById(output) > 9){
+        document.getElementById(button).disabled = true;
+        }
+    })
