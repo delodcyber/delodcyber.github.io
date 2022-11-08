@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
         li.textContent = input.value;
 
         let deleteButton = document.createElement('button');
-        deleteButton.textContent = 'x';
+        deleteButton.textContent = '❌';
 
         li.append(deleteButton);
         output.append(li);
