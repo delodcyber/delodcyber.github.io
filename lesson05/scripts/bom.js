@@ -22,7 +22,7 @@ button.addEventListener('click', () => {
         console.log()   
         }
 
-    if(document.getElementById(output) > 9){
+    if(document.getElementById(output) > 2){
         document.getElementById(button).disabled = true;
         }
     })
