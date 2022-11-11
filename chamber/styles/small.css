@@ -35,7 +35,6 @@ h4 {
 .heading-1 {
   flex-wrap: 1;
   flex-basis: 50%;
-  position: absolute;
   color: rgb(2, 252, 52);
   justify-content: center;
   /*text-shadow: white 0px 0px 10px; */
