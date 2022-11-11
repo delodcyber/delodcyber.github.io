@@ -36,8 +36,8 @@ h4 {
   flex-wrap: 1;
   flex-basis: 50%;
   color: rgb(2, 252, 52);
-  justify-content: center;
-  padding-top: 5em;
+  justify-content: left;
+  padding-top: 0.4em;
   /*text-shadow: white 0px 0px 10px; */
 }
 
