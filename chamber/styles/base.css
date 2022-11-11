@@ -76,13 +76,30 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  max-width:500px;
-  width:25vw
+  max-width:500px
 }
 .message {
-  width:40vw;
+  width: 40vw;
   padding-right: 0.1em;
+  padding-left: 0.4em;
 }
+#space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ws p {
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
 #locations {
   text-align: center;
 }

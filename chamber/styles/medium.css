@@ -20,6 +20,12 @@
     .forecast h2 {
         text-align: center;
     }
+    
+    .tbl td {
+        text-align: center;
+        margin-bottom: 2em;
+        border: ridge;
+    }
 
     #logo {
         margin-left: 7rem;

@@ -1,4 +1,10 @@
 @media only screen and (min-width:65em) {
+    main {
+        align-items: center;
+        padding: 1rem;
+        max-width: 100%
+    }
+
     body {
         font-size: 1.7em
     }
@@ -14,10 +20,22 @@
         margin: 2rem
     }
 
-    main {
-        align-items: center;
-        padding: 1rem;
-        max-width: 100%
+    .tbl td {
+        text-align: center;
+        margin-bottom: 2em;
+        border: ridge
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px
+    }
+
+    #type {
+        margin: 0 8rem 0 8rem;
+        padding: 0 3rem 0 3rem;
+        border: solid
     }
 
     #info {
