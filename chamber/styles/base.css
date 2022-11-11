@@ -8,21 +8,8 @@ h1 {
   font-size: 6vw;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-family: "Yeon Sung", serif;
-}
-
-#logo {
-  width: 18vw;
-  border-radius: 100%;
-  justify-content: center;
-}
-
-#locations {
-  text-align: center;
 }
 
 .heading {
@@ -39,6 +26,12 @@ h4 {
   justify-content: left;
   padding-top: 0.4em;
   /*text-shadow: white 0px 0px 10px; */
+}
+
+#logo {
+  width: 18vw;
+  border-radius: 100%;
+  justify-content: center;
 }
 
 nav {
@@ -78,6 +71,23 @@ nav {
 .navigation .active {
   background-color: #2db4c6;
 }
+
+.slides0 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  max-width:500px;
+  width:25vw;
+}
+.message {
+  width:40vw;
+  padding-right: 0.1em;
+}
+#locations {
+  text-align: center;
+}
+
+
 
 .ws {
   text-align: center;

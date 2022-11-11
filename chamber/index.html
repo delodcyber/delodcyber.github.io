@@ -10,7 +10,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Yeon+Sung&display=swap">
     <link rel="stylesheet" href="https://delodcyber.github.io/chamber/styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 </head>
@@ -39,20 +39,26 @@
     </header>
     <main>
         <div class="slides0">
-            <div class="slides" style="max-width:500px">
+            <img src="./images/images1.jpg" style="width:25vw" alt="chamber">
+            <img src="./images/images7.jpeg" style="width:25vw" alt="chamber">
+            <img src="./images/images8.jpg" style="width:25vw" alt="chamber">
+            <img src="./images/images2.jpg" style="width:25vw" alt="chamber">
+        </div>
+
+            <div class="message">
+                <h3>The Heart of Ekiti</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam mollitia tenetur
-                    animi alias sit. Sequi, accusantium! Vel minus ipsam perspiciatis dolore ex! Praesentium
-                    inventore, numquam illum exminima et molestias.
+                    A place where most of the country intelligentias rooted from, where the subjects 
+                    believe in transcending ideas to reality, and transforming their business orietations 
+                    to enterpreneuship
                 </p>
             </div>
-            <h3>The Heart of Ekiti</h3>
-            <div class="slides2">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam mollitia tenetur
-                    animi alias sit. Sequi, accusantium! Vel minus ipsam perspiciatis dolore ex! Praesentium
-                    inventore, numquam illum exminima et molestias.
-                </p>
+
+            <div class="slides2" style="max-width:500px">
+                <img src="./images/images3.jpg" style="width:25vw" alt="chamber">
+                <img src="./images/images6.jpg" style="width:25vw" alt="chamber">
+                <img src="./images/images5.jpg" style="width:25vw" alt="chamber">
+                <img src="./images/images4.jpg" style="width:25vw" alt="chamber">
             </div>
         </div>
         <div class="forecast">
@@ -65,18 +71,56 @@
             </div>
             <div>
                 <h2>Three Day Forecast</h2>
+                <table>
+                    <tr class="tbl">
+                        <td id="dayofweek1"></td>
+                        <td id="dayofweek2"></td>
+                        <td id="dayofweek3"></td>
+                        <td class="hidden" id="dayofweek4"></td>
+                        <td class="hidden" id="dayofweek5"></td>
+                    </tr>
+                    <tr class="tbl">
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon1"></td>
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon2"></td>
+                        <td><img src="./images/Placeholder.png" alt="placeholder" id="icon3"></td>
+                        <td class="hidden"><img src="./images/Placeholder.png" alt="placeholder" id="icon4"></td>
+                        <td class="hidden"><img src="./images/Placeholder.png" alt="placeholder" id="icon5"></td>
+
+                    </tr>
+                    <tr class="tbl">
+                        <td id="forecast1"></td>
+                        <td id="forecast2"></td>
+                        <td id="forecast3"></td>
+                        <td class="hidden" id="forecast4"></td>
+                        <td class="hidden" id="forecast5"></td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div>
             <h2 id="info">Home of local and foreign investors </h2>
             <div id="type">
                 <h3>Local Company Advertisement</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Temporibus alias officia fugit iure perferendis in totam 
-                        molestias voluptatem officiis, facilis dolor voluptate sint 
-                        uga vitae! Perspiciatis exercitationem officiis quod quasi!
-                    </p>
+                <div class="advertisement" style="display:flex;">
+                    <div>
+                        <span>Panorama Club</span>
+                        <img src="./images/logo1.png" alt="panorama_logo"/>
+                        <span class="tel">tel. (0342) 71-12-04</span>
+                        <span>Join our Bowling and Karaoke this weekend!</span>
+                    </div>
+                    <div>
+                        <span>Restaurant `Desyatka`</span>
+                        <img src="./images/logo2.png" alt="desyatka_logo"/>
+                        <span class="tel">tel. (050) 373-82-02</span>
+                        <span>Enjoy a free meal for kids!</span>
+                    </div>
+                    <div>
+                        <span>Roller Сlub</span>
+                        <img src="./images/logo3.png" alt="roller_club_logo"/>
+                        <span class="tel">tel. (093)-130-36-36</span>
+                        <span>Bring a freind and get an hour free!</span>
+                    </div>
+                </div>
             </div>
             <br>
             <div id="info2">
@@ -124,7 +168,11 @@
             <br>
         </div>
     </footer>
-    <script type="text/javascript" src="./scripts/script.js"></script>
-</body>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="js/carusel.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
+</body>
 </html>
