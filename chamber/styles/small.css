@@ -37,6 +37,7 @@ h4 {
   flex-basis: 50%;
   color: rgb(2, 252, 52);
   justify-content: center;
+  padding-top: 5em;
   /*text-shadow: white 0px 0px 10px; */
 }
 
