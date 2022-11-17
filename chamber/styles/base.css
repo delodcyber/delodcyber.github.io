@@ -1,9 +1,32 @@
+#current-date {
+	color: #ce8c28;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	width: 98%;
+	margin: 0 auto;
+	padding: 3px;
+  background-color: #c5f8e8;
+	/*background-color: var(--main-color2);*/
+	border: outset;
+  border-style: ridge;
+	border-radius: 8px;
+}
+
+/*.current-date {
+  background-color: rgb(23, 230, 75);
+  color: #090e14;
+  padding: 1.15rem;
+}*/
+
 main {
   background-color: #c5f8e8;
   align-items: center;
   justify-content: center;
   padding: 1rem;
   max-width: 100%;
+  border-style: ridge;
+  border-radius: 8px;
 }
 
 body {
@@ -25,6 +48,7 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
   background-image: url("https://delodcyber.github.io/chamber/images/cocbanner.jpg");
   background-size: cover;
+  border-radius: 12px;
 }
 
 .heading-1 {
@@ -39,7 +63,6 @@ h1, h2, h3, h4 {
 #logo {
   width: 18vw;
   border-radius: 100%;
-  justify-content: center;
 }
 
 nav {
@@ -69,6 +92,7 @@ nav {
   color: #8f2b00;
   background-color: #70c1ff;
   font-weight: 500;
+  border-radius: 12px;
 }
 
 .navigation a:hover {

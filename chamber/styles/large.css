@@ -16,7 +16,8 @@
     .forecast {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border: dotted;
+        border-style: double;
+	    border-radius: 4px;
         margin: 2rem
     }
 
