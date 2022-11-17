@@ -98,13 +98,13 @@ nav {
   align-items: center;
 }
 
-
-
 .ws {
   text-align: center;
 }
 
 .ws p {
+  display: block;
+  justify-content: left;
   margin: auto;
   padding-bottom: 1em;
 }
