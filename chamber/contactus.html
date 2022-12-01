@@ -41,49 +41,55 @@
         </nav>
         <div class="date"></div>
     </header>
-    <main class="home-main">
-        <p id="banner"></p>
-        <div class="home-div" id="hero">
-            <picture>
-                <source srcset="/images/hero600.jpg" media="(min-width: 600px) and (max-width: 899px)">
-                <source srcset="images/hero800.jpg" media="(min-width: 900px)">
-                <img class="hero-img" alt="hero" src="images/hero400.jpg">
-            </picture>
-            <button class="hero-button" onclick="window.location.href='join.html'">Join The Chamber</button>
+    <main class="contact-main">
+        <h1>Contact Us</h1>
+        <div id="contact-form-box">
+            <h2 class="contact-form-title">Contact Form</h2>
+            <p>* Indicates required field</p>
+            <br>
+            <form action="contact-submit.html" class="contact-form">
+                <label for="contact-name">*Name: </label>
+                <br>
+                <input type="text" id="contact-name" name="name" class="input-style" required>
+                <br>
+                <label for="email">*Email: </label>
+                <br>
+                <input type="email" id="email" name="email" class="input-style" placeholder="johnking15@gmail.com" required>
+                <br>
+                <label for="buss-description">*Question/Concern: </label>
+                <br>
+                <textarea id="buss-description" name="description" class="input-style" rows="3" cols="40" required></textarea>
+                <br>
+                <input class="contact-submit" type="submit" value="Submit">
+            </form>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1KYyNHJhMRrKFhUQHg5wpWMsottV9_BU&ehbc=2E312F" width="1280" height="800">
+                 width="1280" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="home-div" id="event">
-            <h2>Delod Coding Hub</h2>
-            <h3>Where Ideas Meet Creativity</h3>
-            <p>Join Delod Coding Hub, @ Kilometer 7, Federal Housing, Ado-Ekiti.</p>
-        </div>
-        <div class="home-div" id="weather">
-            <h2>Weather</h2>
-            <div id="weather-display">
-                <img id="weather-icon" alt="" src="#">
-                <h3><span id="temperature"></span>°F</h3>
-            </div>
-            <p id="description"></p>
-            <div id="line"></div>
-            <p>Wind Speed: <span id="speed"></span> mph</p>
-            <p>Wind Chill: <span id="chill"></span></p>
-        </div>
-        <div class="home-div" id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="home-div" id="spotlight-box">
+        <div id="contact-us-box">
+            <h2>Contact Us</h2>
 
-        </div>
-        <div class="home-div" id="join">
-            <button class="join-us-button" onclick="window.location.href='join.html'">Join Us</button>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+            <h3>Address</h3>
+            <p>Kilometer 12, Federal Housing, Ado-Ekiti</p>
+
+            <h3>Email</h3>
+            <p>info@cocnigeria</p>
+
+            <h3>Phone Number</h3>
+            <p>+(23491) 31439-726</p>
+
+            <a class="fb-icon" href="https://www.facebook.com/">
+                <img class="icon-img" src="images/facebook.png" alt="facebook logo">
+            </a>
+            <a class="insta-icon" href="https://www.twitter.com/">
+                <img class="icon-img" src="images/twitter.png" alt="twitter">
+            </a>
         </div>
     </main>
     <footer>
         <div class="footer-grid">
             <img class="footer-logo" src="images/banner.JPG" alt="smile">
             <h3 class="footer-name">Ado-Ekiti Chamber of Commerce</h3>
-            <p class="address">Federal Housing, Ado-Ekiti</p>
+            <p class="address">Kilometer 12, Federal Housing, Ado-Ekiti</p>
             <p class="email">info@cocnigeria.org</p>
             <p class="number">+(23491) 31439-726</p>
             <a class="location" href="https://www.google.com/maps">Location Map</a>
@@ -97,7 +103,5 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/spootlight.js"></script>
 </body>
 </html>
