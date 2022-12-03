@@ -3,7 +3,7 @@ let temperature = document.querySelector("#temperature")
 let speed = document.getElementById("speed");
 let chill = document.getElementById("chill");
 let description  = document.getElementById("description")
-let url = "https://api.openweathermap.org/data/2.5/weather?q=Lagos,ng&appid=825ecaf5a5f127bdab10ffbd6b7705ac&units=imperial"
+let url = "https://api.openweathermap.org/data/2.5/weather?q=Ado-Ekiti,ng&appid=825ecaf5a5f127bdab10ffbd6b7705ac&units=imperial"
 
 async function apiFetch() {
     try {
