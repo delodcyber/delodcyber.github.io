@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #b1f1d6;
+}
+body h1 {
+    text-shadow: 0 0 5px #97c746;
+}
+body figure img {
+    width: 150px;
+}
