@@ -2,7 +2,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Ado-Ekiti,ng&appid=3a614d14e0c682019daff2aad743ba7a&units=imperial';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Ado-Ekiti,ng&appid=825ecaf5a5f127bdab10ffbd6b7705ac&units=imperial';
 
 async function apiFetch() {
     try {
