@@ -1,4 +1,4 @@
-const requestURL = 'delodcyber.github.io/lesson09/latter-day-prophets.json';
+const requestURL = 'http://delodcyber.github.io/lesson09/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
