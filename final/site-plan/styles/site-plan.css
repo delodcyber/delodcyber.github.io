@@ -6,7 +6,7 @@ body {
 }
 hr {
     margin-top: 1em;
-    background-color: #824C30;
+    background-color: #26dadd;
 }
 h1, h2, h3, #heading-sample {
     font-family: "Nerko One", Itim, Kalam;
@@ -19,7 +19,7 @@ h4, h5, h6, p, ul, li, tr, #paragraph-sample {
 footer {
     text-align: center;
     color: white;
-    background-color: #824C30;
+    background-color: #26dadd;
     padding: 10px 0;
 }
 header {
@@ -28,7 +28,7 @@ header {
 header div{
     margin-top: 10px;
     margin-right: 1em;
-    border-bottom: 200px solid #824C30;
+    border-bottom: 200px solid #26dadd;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     height: 0;
@@ -44,7 +44,7 @@ header div h1 {
 main {
     margin: 0 5%;
     padding: 5px 5%;
-    border-color: #824C30;
+    border-color: #26dadd;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
