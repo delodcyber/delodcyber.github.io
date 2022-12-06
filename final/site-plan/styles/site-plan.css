@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Itim&family=Josefin+Slab&family=Kalam&family=Montserrat+Alternates:wght@300&family=Nerko+One&display=swap');
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+hr {
+    margin-top: 1em;
+    background-color: #824C30;
+}
+h1, h2, h3, #heading-sample {
+    font-family: "Nerko One", Itim, Kalam;
+    letter-spacing: 2px;
+    color: #185F45;
+}
+h4, h5, h6, p, ul, li, tr, #paragraph-sample {
+    font-family: Comfortaa, "Montserrat Alternates", Josefin Slab;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #824C30;
+    padding: 10px 0;
+}
+header {
+    object-fit: contain;
+}
+header div{
+    margin-top: 10px;
+    margin-right: 1em;
+    border-bottom: 200px solid #824C30;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 600px;
+    line-height: 180px;
+    text-align: center;
+
+}
+header div h1 {
+    margin: 0 auto;
+    color: white;
+}
+main {
+    margin: 0 5%;
+    padding: 5px 5%;
+    border-color: #824C30;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+}
+img {
+    width: 80%;
+}
+.color {
+    width: 90%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+.color th {
+    width: auto;
+    height: 1.5em;
+    background-color: lightgray;
+}
+.color td {
+    width: auto;
+    height: 3em;
+    text-align: center;
+}
+#color1 {
+    background-color: #824C30;
+    color: white;
+}
+#color2 {
+    background-color: #185F45;
+    color: white;
+}
+#color3 {
+    background-color: #FAC574;
+}
+#color4 {
+    background-color: #090504;
+    color: white;
+}
+.font-family {
+    width: 95%;
+}
+.font-family th, .font-family, .font-family td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sitemap {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+.sitemap h3 {
+    margin: 0 auto;
+}
+.sitemap > div {
+
+    text-align: center;
+
+}
+.sm-home {
+    grid-area: home;
+    background-color: #FAC574;
+    line-height: 3em;
+}
+.sm-page2 {
+    grid-area: page2;
+    background-color: #FAC574;
+    line-height: 3em;
+}
+.sm-page3 {
+    grid-area: page3;
+    background-color: #FAC574;
+    line-height: 3em;
+}
+
+.top {
+    grid-area: top;
+    border-left: 1px solid;
+}
+
+.left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
