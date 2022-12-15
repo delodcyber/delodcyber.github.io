@@ -40,6 +40,9 @@
     .home-cards {
         margin: 0;
     }
+    .home-main p{
+        text-align: justify;
+    }
     .weather-box {
         margin: 0;
         padding: 1em 0;

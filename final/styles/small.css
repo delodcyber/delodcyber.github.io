@@ -120,6 +120,9 @@ main {
     border-top-style: none;
     border-bottom-style: none;
 }
+.home-main p{
+    text-align: justify;
+}
 .home-cards, .weather-box {
     margin: 1em 1em;
     padding: 1em 1em;
