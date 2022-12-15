@@ -70,6 +70,7 @@ h4, h5, h6, p, ul, li, tr, label {
     border-width: 1px;
     font-size: 15px;
     font-weight: 1000;
+    background-color: #e0b9a4;
 }
 #menuBtn:hover {
     text-shadow: 0 0 2px #185F45;
@@ -85,6 +86,7 @@ nav ul {
     list-style: none;
     text-align: center;
     padding-left: 0;
+    background-color: #e0b9a4;
 }
 #menu li {
     border-width: 1px;
@@ -119,6 +121,7 @@ main {
     border-style: solid;
     border-top-style: none;
     border-bottom-style: none;
+    background-color: #ddcec6;
 }
 .home-main p{
     text-align: justify;
