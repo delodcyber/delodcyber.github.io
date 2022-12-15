@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div class="header-background"></div>
+            <h1>Bountiful Foods</h1>
+            <div id="social-link">
+                <a class="fb-icon" href="https://www.facebook.com/">
+                    <img class="icon-img" src="images/facebook.png" alt="facebook logo">
+                </a>
+                <a class="insta-icon" href="https://www.instagram.com/">
+                    <img class="icon-img" src="images/instagram.png" alt="instagram logo">
+                </a>
+                <a class="twitter-icon" href="https://twitter.com/">
+                    <img class="icon-img" src="images/twitter.png" alt="twitter logo">
+                </a>
+            </div>
+        </div>
+        <div class="nav-box">
+            <button id="menuBtn"><span>☰</span></button>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="home-main">
+        <div class="home-cards" id="food-description">
+            <img src="images/beach.jpg" alt="beach" loading="lazy">
+            <p><strong>Southern California</strong> (commonly shortened to SoCal) is a geographic and cultural region that generally comprises the southern portion of the U.S.
+                state of California. It includes the Los Angeles metropolitan area, the second most populous urban agglomeration in the United States.
+                The region generally contains ten of California's 58 counties: Imperial, Kern, Los Angeles,
+                Orange, Riverside, San Bernardino, San Diego, Santa Barbara, San Luis Obispo and Ventura counties. (from Wikipedia)</p>
+        </div>
+        <div class="home-cards" id="drink1">
+            <h2>Specialty Drink</h2>
+            <ul id="order1">
+                <li>Lemon</li>
+                <li>Avocado</li>
+                <li>Banana</li>
+            </ul>
+            <a href="fresh.html">learn more...</a>
+        </div>
+        <div class="home-cards" id="drink2">
+            <h2>Specialty Drink</h2>
+            <ul id="order2">
+                <li>Tomato</li>
+                <li>Passionfruit</li>
+                <li>Grape</li>
+            </ul>
+            <a href="fresh.html">learn more...</a>
+        </div>
+        <div class="home-cards" id="drink3">
+            <h2>Specialty Drink</h2>
+            <ul id="order3">
+                <li>Melon</li>
+                <li>Grape</li>
+                <li>Tomato</li>
+            </ul>
+            <a href="fresh.html">learn more...</a>
+        </div>
+        <div class="home-cards" id="drink-numbers">
+            <h2>Specialty Drinks</h2>
+            <p id="medium-p">You have submitted "<span id="drinksNum"></span>" specialty drinks.</p>
+            <p id="small-drinksNum"></p>
+            <ul id="order-ingredients"></ul>
+        </div>
+        <div class="home-cards" id="weather-card">
+            <h2>Weather</h2>
+            <div class="weather-box" id="current-weather">
+                <h3>Today</h3>
+                <p><strong id="degree-now">40</strong>°F</p>
+                <p id="description">Rain</p>
+                <p id="humidity"><strong>Humidity: </strong><span id="humidity-now"></span>%</p>
+            </div>
+            <div class="weather-box" id="tomorrow-weather">
+                <h4 id="tomorrow-date">11/30</h4>
+                <p><strong id="degree-tomorrow">40</strong>°F</p>
+            </div>
+            <div class="weather-box" id="next-day-weather">
+                <h4 id="the-day-next">12/01</h4>
+                <p><strong id="the-day-next-degree">40</strong>°F</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <img class="footer-logo" src="images/fruit.png" alt="logo">
+            <h3 class="footer-name">Bountiful Foods</h3>
+            <p class="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+            <p class="email">info@timbuktucc.org</p>
+            <p class="number">+(223) 2070-2300</p>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48274.75216549595!2d-111.9144648239219!3d40.86809919789729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f797a9e3f189%3A0x3ddac27f795e9068!2sFarmer&#39;s%20Market!5e0!3m2!1szh-TW!2sus!4v1670966864221!5m2!1szh-TW!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="line-box"></div>
+        <div>
+            <p>&copy;2022 | Yun-Ting Chang | WDD230 Project | Last Modification: <span id="updated-time"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/drink-info.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <title>Bountiful Foods</title>
+</head>
+<body>
+<header>
+  <div class="header-box">
+    <div class="header-background"></div>
+    <h1>Bountiful Foods</h1>
+    <div id="social-link">
+      <a class="fb-icon" href="https://www.facebook.com/">
+        <img class="icon-img" src="images/facebook.png" alt="facebook logo">
+      </a>
+      <a class="insta-icon" href="https://www.instagram.com/">
+        <img class="icon-img" src="images/instagram.png" alt="instagram logo">
+      </a>
+      <a class="twitter-icon" href="https://twitter.com/">
+        <img class="icon-img" src="images/twitter.png" alt="twitter logo">
+      </a>
+    </div>
+  </div>
+  <div class="nav-box">
+    <button id="menuBtn"><span>☰</span></button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="fresh-main">
+  <h1 id="fresh-title">Build Your Specialty Drinks</h1>
+    <div id="grid-box">
+        <picture>
+            <source media="(min-width:900px)" srcset="images/smoothies.png">
+            <source media="(min-width:650px)" srcset="images/blender.png">
+            <img id="smoothie" src="images/smoothie.png" alt="smoothie" loading="lazy">
+        </picture>
+        <div class="form-box">
+            <form action="#" class="blend-form" name="blend-form">
+                <label for="name">First Name: </label>
+                <br>
+                <input type="text" id="name" name="name" class="input" required>
+                <br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="email" name="email" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+                <br>
+                <label for="number">Phone Number: </label>
+                <br>
+                <input type="tel" id="number" name="number" class="input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-111-2222" required>
+                <br>
+                <label for="ingredient1">Ingredient Choices: </label>
+                <br>
+                <select id="ingredient1" name="ingredients" class="ingred-list">
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">GreenApple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Kiwifruit">Kiwifruit</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                </select>
+                <select id="ingredient2" name="ingredients" class="ingred-list">
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">GreenApple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Kiwifruit">Kiwifruit</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                </select>
+                <select id="ingredient3" name="ingredients" class="ingred-list">
+                    <!--      <datalist id="ingredients">-->
+                    <option value="Apple">Apple</option>
+                    <option value="Apricot">Apricot</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Blueberry">Blueberry</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Dragonfruit">Dragonfruit</option>
+                    <option value="Durian">Durian</option>
+                    <option value="Feijoa">Feijoa</option>
+                    <option value="Fig">Fig</option>
+                    <option value="Gooseberry">Gooseberry</option>
+                    <option value="Grape">Grape</option>
+                    <option value="GreenApple">GreenApple</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Kiwi">Kiwi</option>
+                    <option value="Kiwifruit">Kiwifruit</option>
+                    <option value="Lemon">Lemon</option>
+                    <option value="Lime">Lime</option>
+                    <option value="Lingonberry">Lingonberry</option>
+                    <option value="Lychee">Lychee</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Morus">Morus</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Papaya">Papaya</option>
+                    <option value="Passionfruit">Passionfruit</option>
+                    <option value="Persimmon">Persimmon</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Pitahaya">Pitahaya</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Tangerine">Tangerine</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Watermelon">Watermelon</option>
+                    <!--      </datalist>-->
+                </select>
+                <br>
+                <label for="instruction">Instruction: </label>
+                <br>
+                <textarea id="instruction" name="instruction" class="input" rows="5"></textarea>
+                <br>
+                <button type="button" id="formBtn" onclick="apiFetch();return false">Blend</button>
+            </form>
+    </div>
+
+  </div>
+  <div class="data-form">
+
+  </div>
+</main>
+<footer>
+  <div class="footer-grid">
+    <img class="footer-logo" src="images/fruit.png" alt="logo">
+    <h3 class="footer-name">Bountiful Foods</h3>
+    <p class="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+    <p class="email">info@timbuktucc.org</p>
+    <p class="number">+(234) 913-1839-72</p>
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48274.75216549595!2d-111.9144648239219!3d40.86809919789729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f797a9e3f189%3A0x3ddac27f795e9068!2sFarmer&#39;s%20Market!5e0!3m2!1szh-TW!2sus!4v1670966864221!5m2!1szh-TW!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="line-box"></div>
+  <div>
+    <p>&copy;2022 | John Adeloye | WDD230 Final Project | Last Modification: <span id="updated-time"></span></p>
+  </div>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/fresh.js"></script>
+</body>
+</html>

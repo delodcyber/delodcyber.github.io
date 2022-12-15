@@ -1,0 +1,170 @@
+@media only screen and (min-width: 650px) {
+    .header-box {
+        height: 180px;
+    }
+    .header-background {
+        border-bottom: 180px solid #824C30;
+    }
+    .header-box h1 {
+        margin-top: 20px;
+    }
+    #menu a {
+        font-size: 22px;
+    }
+    #menuBtn {
+        display: none;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu li {
+        flex: 1;
+    }
+    .header-box h1 {
+        font-size: 2.5em;
+    }
+    #social-link {
+        grid-column: 3/4;
+        align-items: start;
+    }
+    .icon-img {
+        margin-right: 8%;
+    }
+
+
+    /* home main */
+    .home-cards img {
+        width: 70%;
+        margin-right: 1em;
+    }
+    .home-cards {
+        margin: 0;
+    }
+    .weather-box {
+        margin: 0;
+        padding: 1em 0;
+    }
+    .home-main {
+        padding: 1em 1em;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 1em;
+    }
+    #food-description {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    #weather-card {
+        grid-column: 5/7;
+        grid-row: 1/2;
+        padding: 1em 1em;
+        display: grid;
+        grid-template-rows: 10% 60% 25%;
+        grid-template-columns: 45% 45%;
+        text-align: center;
+        grid-gap: 1em;
+    }
+    #drink1 {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    #drink2 {
+        grid-column: 4/7;
+        grid-row: 2/3;
+        display: block;
+    }
+    #drink-numbers {
+        grid-column: 1/7;
+        grid-row: 3/4;
+    }
+    #weather-card h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #description-now {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #humidity {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #degree-now {
+        font-size: 40px;
+    }
+    #degree-tomorrow, #the-day-next-degree {
+        font-size: 25px;
+    }
+
+    /* fresh */
+    #fresh-title {
+        margin-bottom: 1em;
+    }
+    #grid-box {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    #smoothie {
+        margin: 1em;
+        width: 90%;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .form-box {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #medium-p{
+        display: block;
+    }
+    #small-drinksNum {
+        display: none;
+    }
+
+    /* about us main */
+    #bountiful-des img{
+        margin-right: 1em;
+        float: left;
+        width: 60%;
+    }
+    #med-contact-box {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding-bottom: 1em;
+    }
+    #contact-us-box {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #med-contact-box iframe {
+        height: 100%;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    /* footer */
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: repeat(4, auto);
+    }
+    .footer-logo {
+        grid-column: 1/2;
+        grid-row: 1/5;
+    }
+    .footer-name, .address, .email, .number {
+        grid-column: 2/3;
+        text-align: left;
+        margin: 0;
+    }
+    .footer-grid #map {
+        margin: 10px 10px;
+        width: 95%;
+        height: 200px;
+        display: block;
+        grid-column: 3/4;
+        grid-row: 1/5;
+    }
+}
