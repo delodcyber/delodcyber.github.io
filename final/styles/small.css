@@ -22,7 +22,7 @@ h4, h5, h6, p, ul, li, tr, label {
     align-items: center;
 }
 .header-background {
-    border-bottom: 130px solid #824C30;
+    border-bottom: 130px solid #307482;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     height: 0;
@@ -57,10 +57,10 @@ h4, h5, h6, p, ul, li, tr, label {
 .nav-box {
     margin: 0 1em;
     border-left-width: 10px;
-    border-left-color: #824C30;
+    border-left-color: #307482;
     border-left-style: solid;
     border-right-width: 10px;
-    border-right-color: #824C30;
+    border-right-color: #307482;
     border-right-style: solid;
 }
 #menuBtn {
@@ -115,7 +115,7 @@ main {
     padding-top: 1em;
     padding-bottom: 1em;
     border-width: 10px;
-    border-color: #824C30;
+    border-color: #307482;
     border-style: solid;
     border-top-style: none;
     border-bottom-style: none;
@@ -316,7 +316,7 @@ main {
 
 /* footer */
 footer {
-    background-color: #824C30;
+    background-color: #307482;
     color: white;
     text-align: center;
     align-items: center;
