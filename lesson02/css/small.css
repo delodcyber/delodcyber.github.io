@@ -1,0 +1,35 @@
+body {
+font-size: 20px;
+background-color: rgb(85, 134, 155);
+}
+h1, h2 {
+    font-family: 'Merienda', cursive, sans-serif;
+}
+h3, p {
+    font-family: 'Overlock', cursive, sans-serif; 
+}
+header {
+    text-align: center;
+}
+main img {
+    max-width: 300px;
+    height: auto;
+}
+.columns {
+    display: block;
+    background-color: rgb(139, 164, 95);
+    text-align: center;
+    align-items: center;
+    margin:10px 10px 10px 10px ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #modified {
+    color: #24fd0c;
+  }
+  footer {
+    text-align: center;
+    font-family: 'Overlock', cursive, sans-serif; 
+}
