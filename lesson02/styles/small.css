@@ -22,14 +22,14 @@ main img {
     align-items: center;
     margin:10px 10px 10px 10px ;
 }
-.grid-container {
+main {
     display: grid;
     grid-template-columns: 1fr;
   }
-  #modified {
+#modified {
     color: #24fd0c;
   }
-  footer {
+footer {
     text-align: center;
     font-family: 'Overlock', cursive, sans-serif; 
 }

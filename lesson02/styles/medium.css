@@ -1,5 +1,5 @@
 @media only screen and (min-width: 32.5em) {
-    .grid-container {
+    main {
         grid-template-columns: 1fr 1fr;
       }
 }
