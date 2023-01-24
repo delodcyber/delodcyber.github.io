@@ -1,6 +1,6 @@
 body {
 font-size: 20px;
-background-color: rgb(85, 134, 155);
+background-color: rgb(73, 186, 238);
 }
 h1, h2 {
     font-family: 'Merienda', cursive, sans-serif;
@@ -17,7 +17,7 @@ main img {
 }
 .columns {
     display: block;
-    background-color: rgb(139, 164, 95);
+    background-color: rgb(130, 222, 73);
     text-align: center;
     align-items: center;
     margin:10px 10px 10px 10px ;
