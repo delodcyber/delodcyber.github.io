@@ -30,6 +30,8 @@ main {
     color: #24fd0c;
   }
 footer {
+    font-size: 3.5vh;
     text-align: center;
-    font-family: 'Overlock', cursive, sans-serif; 
+    font-family: 'Overlock', cursive, sans-serif;
+    padding: 1.5em;
 }
