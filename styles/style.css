@@ -22,9 +22,10 @@ h1 {
     margin: auto;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
 }
+
 #content img {
     padding: 20px;
     color: #E9E6FF;
@@ -40,13 +41,12 @@ footer, footer a {
     width: 600px;
     border-radius: 0.5em;
     }
-#modified {
+#modified { 
     color: #b6f710;
-    }
+}
 
-main {
-    padding-left: 1cm;
-    
+main ul {
+    padding: 0em 3.5em;
 }
 
 main ul li {
