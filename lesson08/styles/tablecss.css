@@ -23,7 +23,6 @@ main {
     border: 1px solid darkgrey;
     text-align: center;
     padding: 8px;
-    background-color: #;
   }
   tr:nth-child(odd) {
     background-color: #e7ffed;
@@ -36,6 +35,6 @@ main {
     background-color: #010004;;
   }
   tfoot tr td {
-    font-size: 0.9em;
+    font-size: 1.0em;
     background-color: none;
   }
