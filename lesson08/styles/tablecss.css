@@ -10,14 +10,13 @@ main {
     table-layout: auto;
     align-items: center;
     font-family: Ubuntu, sans-serif;
-    width: 300px;
+    width: 400px;
     border-collapse: collapse;
-    background-color: #e7f0ed; 
     box-shadow: 7px 7px 7px #628ca6;
   } 
   thead tr th {   
-    color: black;   
-    background-color: #7fb9c2; 
+    color: #fbfcfc;   
+    background-color: #010004; 
     font-size: 1.6em; 
   }
   td, th {
@@ -29,12 +28,14 @@ main {
   tr:nth-child(odd) {
     background-color: #e7ffed;
     padding: 5px;
-  } 
-  th, .wh {
-    color: white;
-    background-color: #0394ee;
+  }
+  th {
+    background-color: #fbfcfc;
+  }
+  .wh {
+    background-color: #010004;;
   }
   tfoot tr td {
-    font-size: 0.7em;
-    background-color: #7fb9c2;  
+    font-size: 0.9em;
+    background-color: none;
   }
