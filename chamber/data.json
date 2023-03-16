@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "companysName": "APPLE",
+      "location": "Cupertino, CA 95014, U.S.A",
+      "phoneNumber": "+18774127753",
+      "webUrl": "https://www.apple.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "membershipLevel": "Gold Membership"
+    },
+    {
+      "companysName": "BYU",
+      "location": "Provo, UT 84602",
+      "phoneNumber": "+18014224636",
+      "webUrl": "http://www.byu.edu/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/BYU_Cougars_logo.svg",
+      "membershipLevel": "Silver Membership"
+    },
+    {
+      "companysName": "Panda Express",
+      "location": "1240 N University Ave B, Provo, UT 84604",
+      "phoneNumber": "+18018180111",
+      "webUrl": "https://order.pandaexpress.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/85/Panda_Express_logo.svg",
+      "membershipLevel": "Bronze Membership"
+    },
+    {
+      "companysName": "Taco Bell",
+      "location": "1244 N Freedom Blvd, Provo, UT 84604",
+      "phoneNumber": "+18013777080",
+      "webUrl": "https://www.tacobell.com/?store=025390",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/b/b3/Taco_Bell_2016.svg",
+      "membershipLevel": "NP Membership"
+    },
+    {
+      "companysName": "Starbucks",
+      "location": "1158 N University Ave, Provo, UT 84604",
+      "phoneNumber": "+18013777080",
+      "webUrl": "https://www.starbucks.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg",
+      "membershipLevel": "Gold Membership"
+    },
+    {
+      "companysName": "Crumbl Cookies",
+      "location": "152 W 1230 N St, Provo, UT 84604",
+      "phoneNumber": "+18018231544",
+      "webUrl": "https://crumblcookies.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/14/Crumbl_Cookies_logo.png",
+      "membershipLevel": "Silver Membership"
+    },
+    {
+      "companysName": "Target",
+      "location": "1290 N State St, Provo, UT 84604",
+      "phoneNumber": "+13854475020",
+      "webUrl": "https://www.target.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Target_logo.svg",
+      "membershipLevel": "Bronze Membership"
+    },
+    {
+      "companysName": "McDonald's",
+      "location": "211 W 1230 N, Provo, UT 84604",
+      "phoneNumber": "+18013746909",
+      "webUrl": "https://www.mcdonalds.com/us/en-us.html",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg",
+      "membershipLevel": "NP Membership"
+    },
+    {
+      "companysName": "Chick-fil-A",
+      "location": "484 W Bulldog Blvd, Provo, UT 84604",
+      "phoneNumber": "+18013742697",
+      "webUrl": "https://www.chick-fil-a.com/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chick-fil-A_Logo.svg",
+      "membershipLevel": "Bronze Membership"
+    }
+  ]
+}

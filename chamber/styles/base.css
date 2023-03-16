@@ -1,0 +1,300 @@
+/* Small Phone View */
+
+body {
+    margin: 0 auto;
+    background-color:#afd2da;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 40% 10% 10% 10%;
+    grid-template-rows: 3em 3em 4em 1fr;
+    align-items: center;
+    background-color: #a2e6f6;
+}
+
+.header-logo {
+    grid-row: 1/3;
+}
+.header-logo img {
+    padding-top: 3em ;
+    width: 120px;
+    margin: 8px 8px;
+    border-radius: 3em;
+}
+
+h1, h2, h3 {
+    color: #713434;
+    font-weight: bolder;
+}
+header h1 {
+    padding-top: 15px;
+    margin-bottom: -5px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #bc6363;
+}
+header h2  {
+    margin-top: -40px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: #bc6363;
+}
+.fb-icon {
+    grid-row: 1/3;
+}
+.icon-img {
+    width: 2em;
+    margin: 0 5px;
+}
+.insta-icon {
+    grid-row: 1/3;
+}
+#menuBtn {
+    grid-row: 1/3;
+    grid-column: 5/6;
+    background-color: rgb(194, 255, 192);
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+#menuBtn:hover {
+    text-shadow: 0 0 5px #56d1e1;
+    cursor: pointer;
+}
+.date {
+    grid-column: 1/6;
+    grid-row: 5/6;
+    margin: 0.5rem;
+    border: 1px solid #2a0505;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: #56d1e1;
+    border-radius: 9em;
+    color: #713434;
+    font-size: 21px;
+    font-weight: bold;
+}
+nav ul{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    list-style: none;
+}
+nav {
+    grid-row: 4/5;
+    grid-column: 1/6;
+    text-align: center;
+}
+nav ul.responsive {
+    display: block;
+    padding-top: 0em;
+    margin: 0 0;
+}
+#menu li {
+    font-size: 21px;
+    padding: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 1px gray;
+}
+#menu li:hover {
+    background-color: rgb(76, 137, 192);
+}
+#menu li a{
+    text-decoration: none;
+    color: #713434;
+    font-weight: 700;
+    transition: 0.5s;
+}
+#menu li a:hover {
+    color: white;
+}
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+
+
+/* main */
+.home-main {
+    margin: 0 1em;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 1em;
+}
+.home-div {
+    margin-bottom: 1em;
+}
+.home-div, .spotlight {
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(255, 250, 250);
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+#banner {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    color: rgb(255, 250, 250);
+    background-color: rgb(229, 77, 102);
+}
+#hero {
+    height: 100%;
+    position: relative;
+}
+.hero-img {
+    width: 100%;
+}
+.hero-button {
+    position: absolute;
+    top: 75%;
+    right: 50px;
+    height: 25px;
+}
+.join-us-button, .hero-button {
+    color: rgb(255, 250, 250);
+    background-color: rgb(229, 77, 102);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    text-align: center;
+    width: 38%;
+    font-weight: bold;
+    text-shadow: 0 0 3px black;
+}
+.join-us-button {
+    margin-top: 1em;
+}
+.hero-button:hover, .join-us-button:hover {
+    background-color: white;
+    text-shadow: none;
+    box-shadow: 0 0 5px gray;
+    color: black;
+    cursor: pointer;
+}
+.icon {
+    width: 30%;
+}
+#weather-icon {
+    width: 40%;
+    object-fit: contain;
+}
+#weather-display {
+    padding-left: 20%;
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+}
+#weather-display h3 {
+    margin-left: .5em;
+    font-size: 22px;
+}
+#description {
+    margin: 5px auto;
+    font-size: larger;
+}
+#weather p {
+    margin: 10px;
+}
+#line {
+    margin-left: 5%;
+    height: 1px;
+    width: 90%;
+    background-color: gray;
+    border-style: none;
+}
+#spotlight-box {
+    height: auto;
+    width: 100%;
+}
+.spotlight {
+    margin: 1em auto;
+    padding: 10px 10px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+}
+.spotlight #line {
+    margin: 3% 0;
+    width: 100%;
+}
+.spotlight h2 {
+    margin: 5px auto;
+}
+.spotlight p {
+    margin: 3px 0 3px 1em;
+    font-size: 16px;
+    text-align: left;
+}
+.spotlight img {
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+#spot3, #join {
+    display: none;
+}
+#news p, #event p, #join p {
+    padding: 0 1em;
+}
+
+/* discover main*/
+#discover-main {
+    background-color: #afd2da;
+}
+#taiwan-icon {
+    height: 25px;
+}
+.discover-grid-box {
+    display: block;
+    padding-bottom: 2px;
+    margin: 5% 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #56d1e1;
+}
+.discover-grid-box picture img {
+    width: 100%;
+}
+.right-p, .left-p {
+    margin: 0 10% 10% 10%;
+}
+.source-link {
+    text-align: center;
+}
+.p-larger {
+    font-size: 20px;
+}
+.demographics-margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* footer*/
+footer {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: pink;
+    align-items: center;
+    text-align: center;
+    background-color: #a2e6f6;
+}
+footer img {
+    width: 120px;
+    padding: 10px;
+}
+.line-box {
+    margin: 5px 2px;
+    height: 1px;
+    background-color: gray;
+}
