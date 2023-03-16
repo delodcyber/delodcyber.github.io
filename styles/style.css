@@ -30,7 +30,7 @@ h2 {
     width: 150px;
     border-radius: 30px;
 }
-footer, footer a {
+footer {
     background-color: #266694;
     color: #E9E6FF;
     font-size: 3vh;
@@ -50,6 +50,6 @@ main ul {
     padding: 0em 3em;
 }
 
-main ul li {
+main ul li a {
     font-size: 3ch;
 }
