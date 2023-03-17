@@ -1,0 +1,29 @@
+header, footer {
+    text-align: center;
+    color: #0a5e64;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.cards section{
+    margin: 2rem auto;
+    border-style: solid;
+    border-color: rgb(43, 171, 175);
+    border-width: 1.5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(67, 173, 173);
+}
+.cards section h2 {
+    color: #0a767c;
+}
+.cards section h2, .cards section p {
+    text-align: left;
+    padding: 0 10%;
+}
+.cards section img {
+    display: block;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
