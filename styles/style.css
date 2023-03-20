@@ -50,6 +50,7 @@ main ul {
     padding: 0em 3em;
 }
 
-main ul li a {
-    font-size: 3ch;
+ul li,
+ul li ul li {
+  font-size: 20px;
 }
