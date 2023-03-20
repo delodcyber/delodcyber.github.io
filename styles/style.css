@@ -9,27 +9,32 @@ body {
     font-family:Marmelad, sans-serif;
     color: #f3eded;
 }
+
 header {
     text-align: center;
     background-color: #266694;
     width: auto;
     border-radius: 0.5em;
 }
+
 h1 {
     font-size: 6vh;
     font-weight: bolder;
     margin: auto;
 }
+
 h2 {
     font-size: 1.7rem;
     font-weight: bolder;
 }
+
 #content img {
     padding: 20px;
     color: #E9E6FF;
     width: 150px;
     border-radius: 30px;
 }
+
 footer {
     background-color: #266694;
     color: #E9E6FF;
@@ -39,6 +44,7 @@ footer {
     width: 600px;
     border-radius: 0.5em;
     }
+
 #modified { 
     color: #b6f710;
 }
