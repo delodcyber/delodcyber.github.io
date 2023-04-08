@@ -115,12 +115,12 @@ main {
     margin: 0 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    border-style: solid;
     border-width: 10px;
     border-color: #307482;
-    border-style: solid;
+    background-color: #ddcec6;
     border-top-style: none;
     border-bottom-style: none;
-    background-color: #ddcec6;
 }
 .home-main p{
     text-align: justify;
@@ -128,10 +128,10 @@ main {
 .home-cards, .weather-box {
     margin: 1em 1em;
     padding: 1em 1em;
-    border-color: #824C30;
-    border-style: solid;
     border-width: 2px;
     background-color: #FAC574;
+    border-color: #824C30;
+    border-style: solid;
 }
 .weather-box {
     margin: 0;
